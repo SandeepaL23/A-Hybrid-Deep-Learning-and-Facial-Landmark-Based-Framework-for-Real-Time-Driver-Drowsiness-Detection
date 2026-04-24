@@ -1,7 +1,7 @@
 # A-Hybrid-Deep-Learning-and-Facial-Landmark-Based-Framework-for-Real-Time-Driver-Drowsiness-Detection
 AI-based driver drowsiness detection system using Deep Learning and facial landmarks (EAR, MAR) for real-time alerts.
 
-##Project Overview
+## Project Overview
 Road accidents caused by driver fatigue are a serious problem. This project aims to solve that by building a real-time drowsiness detection system.
 
 It uses a combination of Deep Learning and facial landmark analysis to monitor the driver’s condition. By tracking eye closure and yawning, the system can detect early signs of drowsiness and alert the driver instantly to prevent accidents.
