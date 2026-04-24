@@ -7,18 +7,18 @@ Road accidents caused by driver fatigue are a serious problem. This project aims
 It uses a combination of Deep Learning and facial landmark analysis to monitor the driver’s condition. By tracking eye closure and yawning, the system can detect early signs of drowsiness and alert the driver instantly to prevent accidents.
 
 ## Objectives
--> Detect drowsiness in real-time using a webcam
--> Monitor eye closure using Eye Aspect Ratio (EAR)
--> Detect yawning using Mouth Aspect Ratio (MAR)
--> Use a CNN model (MobileNetV2) for classification
--> Trigger alerts when signs of fatigue are detected
+1. Detect drowsiness in real-time using a webcam
+2. Monitor eye closure using Eye Aspect Ratio (EAR)
+3. Detect yawning using Mouth Aspect Ratio (MAR)
+4. Use a CNN model (MobileNetV2) for classification
+5. Trigger alerts when signs of fatigue are detected
 
 ## Technologies Used
--> Python
--> OpenCV
--> TensorFlow / Keras
--> MediaPipe
--> NumPy
+1. Python
+2. OpenCV
+3. TensorFlow / Keras
+4. MediaPipe
+5. NumPy
 
 ## Dataset
 The dataset used for training the model is available on Kaggle:
@@ -37,21 +37,13 @@ The dataset is not included in this repository due to its large size. You can do
 5. All results are combined using a weighted approach
 6. If drowsiness is detected, an alert is triggered immediately
 
-## Project Structure
-project/ 
-│── app.py 
-│── model/ 
-│── dataset/  
-│── notebooks/ 
-│── requirements.txt 
-│── README.md
 
 ## Key Features
--> Real-time driver monitoring
--> Combination of Deep Learning + facial analysis
--> High accuracy (~96%)
--> Lightweight and efficient system
--> Instant audio alert mechanism
+1. Real-time driver monitoring
+2. Combination of Deep Learning + facial analysis
+3. High accuracy (~96%)
+4. Lightweight and efficient system
+5. Instant audio alert mechanism
 
 ## Results
 1. Achieved strong accuracy using MobileNetV2
@@ -59,9 +51,9 @@ project/
 3. Reduced false alerts with hybrid approach
 
 ## Future Improvements
--> Develop a mobile/camera based IoT application version
--> Improve performance in low-light environments
--> Integrate with smart vehicle systems
+1. Develop a mobile/camera based IoT application version
+2. Improve performance in low-light environments
+3. Integrate with smart vehicle systems
 
 ## References
 Kaggle Dataset
